@@ -1,0 +1,67 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    background: linear-gradient(to bottom, #f3f3f3, #eaeaea);
+}
+
+header {
+    text-align: center;
+}
+
+header h1 {
+    font-size: 48px;
+    margin-top: 32px;
+    margin-bottom: 32px;
+}
+
+header img {
+    width: 350px;
+    height: auto;
+}
+
+main {
+    flex: 1; /* Ocupa todo el espacio vertical restante */
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+}
+
+#options-18 {
+    width: 100%;   
+    margin-top: auto; /* Pushes #options-18 to the bottom of main */
+    box-sizing: border-box;    /* Ensures the border is included in the width calculation */       
+    padding: 0px;
+    color: white;
+    height: 300px;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    background-color: gray;
+    color: white;
+    text-align: center;
+    padding: 0px;
+    margin: 0px; /* Remove any extra margin */
+
+}
+
+#footer-banner {
+    margin-left: 10px;
+    margin-bottom: 0px;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    object-fit: cover; /* Ensures the image scales properly within the circle */
+}
